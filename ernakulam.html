@@ -17,14 +17,31 @@
 </head>
 
 <body>
-    <!-- header -->
-    <header class="bg-primary" style=" height:15vh;">
-        <div>
-            <a href="index.html"> <img src="images/logo.png" width="120px" height="80px"
-                    style="margin-left:30px; padding:15px;"></a>
+    <nav class="navbar navbar-expand-lg bg-primary navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+             <a href="index.html"><img src="images/logo.png"   alt="logo_small" id="logo" width="120px" height="80px" style="margin-left:30px; padding:5px;" ></a> 
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item" active>
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Destination.html">Destinations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="SignUp.html">SignUp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="LogIn.html">LogIn</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-
+      </nav>
     <!-- content -->
     <div class="container bg-info">
         <h1 style="margin-top: 20px;">Ernakulam</h1>
