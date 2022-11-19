@@ -10,12 +10,14 @@
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+    border: 1px solid turquoise;
 }
 
 .container{
-    margin-top: 80px;;
+    margin-top: 90px;
 }
 .about h3{
+    padding: 20px;
     color: rgb(14, 14, 122);
 }
 .about{
@@ -25,10 +27,14 @@
 }
 
 #imgabout{
-    margin-top: 80px;
+    margin-top: 100px;
     width:99%;
     height: 300px;
     border-radius: 50px;
+}
+#specialities
+{
+    padding: 50px;
 }
 footer{
     padding: 10px;
